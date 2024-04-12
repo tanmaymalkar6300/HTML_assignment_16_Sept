@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment </title>
+</head>
+<body>
+    <form action="/action_page.php">
+       <label for="firstName">First Name :
+        <input type="text" name = "firstName" placeholder="Tanmay" id="firstName" required minlength=3 maxlength="20" >
+       </label>
+       <br>
+       <label for="lastName">Last Name :
+        <input type="text" name=" lastName" placeholder="Malkar"
+        id="lastName" required minlength="3" maxlength="20"/>
+       </label>
+       <br>
+       <label for="email">Email :
+        <input type="email" name="Email" placeholder="malkar63@gmail.com"
+        id="Email" required/>
+       </label>
+       <br>
+       <label for="password">Password :
+        <input type="password" name="Password" placeholder="******"
+        id="Password" required>
+       </label>
+       <br>
+        <label for="confirmPassword">confirm Password :
+            <input type="password" name="confirmPassword" placeholder="******" id="confirmPassword" required/>
+        </label>
+       <br>
+       <label for="age">Age :
+        <input type="number" name="Age" placeholder="43" id="age" required min="0" max="149"/>
+       </label>
+       <br>
+       <label for="">Gender :
+        <input type="radio" id="male" value="male" name="gender" checked/>
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female" name="gender"
+        checked/>
+        <label for="female">Female</label>
+        <input type="radio" id="other" value="other" name="gender"
+        checked/>
+        <label for="other">Other</label>
+       </label>
+
+       <br>
+       <label for="terms">Terms
+       <input type="checkbox" id="terms" required/>I agree to terms and conditions</label>
+       <br>
+       <button type="submit">Register</button>
+    </form>
+    
+</body>
+</html>
